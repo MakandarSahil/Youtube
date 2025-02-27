@@ -27,10 +27,4 @@ app.use(express.static("public"));
 // crud on cookies of user 
 app.use(cookieParser())
 
-
-
-
-
-export {
-  app
-};
+export default app;
